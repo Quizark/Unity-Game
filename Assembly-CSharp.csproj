@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCollisions.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\MainMenuBtns.cs" />
     <Compile Include="Assets\Scripts\TargetCollision.cs" />
     <Compile Include="Assets\Scripts\Matches.cs" />
     <Compile Include="Assets\Scripts\TidyObject.cs" />
@@ -67,8 +69,10 @@
     <Compile Include="Assets\Scripts\ThrowTrigger.cs" />
     <Compile Include="Assets\Scripts\CoconutWin.cs" />
     <Compile Include="Assets\Scripts\CoconutThrower.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\PowerCell.cs" />
     <Compile Include="Assets\Scripts\TriggerZone.cs" />
+    <Compile Include="Assets\Scripts\MainMenuGUI.cs" />
     <Compile Include="Assets\Scripts\TextHints.cs" />
   </ItemGroup>
   <ItemGroup>
