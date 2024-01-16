@@ -369,6 +369,7 @@
 "Assets/Scripts/CoconutWin.cs"
 "Assets/Scripts/DoorManager.cs"
 "Assets/Scripts/Hit.cs"
+"Assets/Scripts/HitWolfHead.cs"
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/MainMenuBtns.cs"
