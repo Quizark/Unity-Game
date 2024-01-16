@@ -5,6 +5,14 @@ using UnityEngine;
 public class TidyObject : MonoBehaviour
 {
     public float removeTime = 3.0f;
+
+    void OnCollisionEnter(Collision theObject)
+    {
+        if (theObject.gameObject.name == "Terrain")
+        {
+            gameObject.name = "ground_coconut";
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
