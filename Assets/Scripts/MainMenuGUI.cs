@@ -86,6 +86,8 @@ Application.Quit ();
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         if (adjustSize)
         {
             coefX = Screen.width / 1024.0f;

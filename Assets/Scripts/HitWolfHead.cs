@@ -37,6 +37,7 @@ public class HitWolfHead : MonoBehaviour
     // Metoda do za³adowania sceny "Menu"
     void LoadMenuScene()
     {
+
         SceneManager.LoadScene("Menu");
     }
     // Update is called once per frame
